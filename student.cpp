@@ -6,10 +6,9 @@ class student
 {
 protected:
 int rno;
-char
-fname[10],lname[10],cource[20],dob[15],mo[15],addr[20],city[10],email[30];
- int sub1, sub2, sub3, sub4, sub5, sub6, total;
- float per;
+char fname[10],lname[10],cource[20],dob[15],mo[15],addr[20],city[10],email[30];
+int sub1, sub2, sub3, sub4, sub5, sub6, total;
+float per;
 public:
 void input_details()
 {
